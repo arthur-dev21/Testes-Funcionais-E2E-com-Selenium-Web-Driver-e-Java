@@ -17,18 +17,20 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class BaseTest {
 
-	private LoginPage loginPage = new LoginPage();
+
 	@Rule
 	public TestName testName = new TestName();
 
 	// esse metodo sera usada por todas suas classes filhas para fazer login antes da execuçao dos testes
-	@Before
+	/*private LoginPage loginPage = new LoginPage();
+* @Before
 	public void incializa(){
 		loginPage.acessarTelaInicial();
 		loginPage.setEmail("arthurkenned21@gmail.com");
 		loginPage.setSenha("123");
 		loginPage.entrar();
 	}
+* */
 	
 	@After
 	public void finaliza() throws IOException{
@@ -43,3 +45,5 @@ public class BaseTest {
 	}
 
 }
+
+
