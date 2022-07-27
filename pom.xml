@@ -3,6 +3,8 @@
   <groupId>br.ce.wcaquino</groupId>
   <artifactId>ProjetoBasico</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
+
   
   <dependencies>
   	<dependency>

@@ -23,14 +23,14 @@ public class SuiteGeral {
     @BeforeClass
 	public static void incializa(){
 		loginPage.acessarTelaInicial();
-		loginPage.setEmail("arthurkenned21@gmail.com");
+		loginPage.setEmail("knd21@gmail.com");
 		loginPage.setSenha("123");
 		loginPage.entrar();
 	}
 
 	@AfterClass
 	public static void finalizar(){
-		DriverFactory.killDriver();
+	//	DriverFactory.killDriver();
 	}
 
 }
